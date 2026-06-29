@@ -1,0 +1,84 @@
+canonical_identifier: bkk:krp/KR3ed100/jc/v1
+canonical_location: https://kanripo.org/bkk/KR3ed100/jc/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 家塾方與方極
+  identifiers:
+    krp: KR3ed100
+  tags:
+    kr-categories: KR3ed
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3ed100.xml
+  edition:
+    short: jc
+assets:
+  parts:
+  - {seq: 0, filename: KR3ed100_000-jc.yaml, hash: 'sha256:abaefe7ef6926276fc0d19e3555d0626699c132b8cd11eaa7c12052c116e01a8'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3ed100_000-jc.markers.yaml, hash: 'sha256:147af7e5912ac2031753cd5f320625d4b962395ded046efd9020f03846a96e5b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3ed100_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 271
+  label: 方極序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ed100_jc_000-d6.h1s1
+    span:
+    - front
+    - 271
+    - 559
+  label: 方極後序
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ed100_jc_000-d3.h1s1
+    span:
+    - body
+    - 0
+    - 284
+  label: 方極敘
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ed100_jc_000-d4.h1s1
+    span:
+    - body
+    - 284
+    - 2334
+  label: 東洞先生家塾方
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ed100_jc_000-d5.h1s1
+    span:
+    - body
+    - 2334
+    - 5554
+  label: 方極
+  type: section
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR3ed100_jc_000-d7.h1s1
+    span:
+    - body
+    - 5554
+    - 5805
+  label: 方極跋
+  type: section
+  level: 1
+hash: sha256:b8f24a1466624b13f8cee33fb9cb71c659366d5d14759dd7d89e27f7fd5b61bc
